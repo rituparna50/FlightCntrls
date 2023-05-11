@@ -20,6 +20,17 @@ A = np.array([[0, 1, 0],
               [-1, -2, -3]])
 
 # To get eigenvalues of matrix A
-eigenvalues = np.linalg.eigvals(A)
+eigA = np.linalg.eigvals(A)
 print("Eigenvalues of matrix A:")
-print(eigenvalues)
+print(eigA)
+
+
+# Defining another matrix B
+    B = np.array([[0, 1, 0],
+                  [0, 0, 1],
+                  [-24, -26, -9]])
+
+# To get eigen values of matrix B
+    eigB = np.linalg.eigvals(B)
+        print("Eigenvalues of matrix B:")
+        print(eigB)
