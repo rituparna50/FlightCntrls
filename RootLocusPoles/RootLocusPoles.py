@@ -30,6 +30,7 @@ def root_locus_plot(K):
     plt.title('Root locus plot')
     plt.axhline(y=0, color='black', linestyle='--', linewidth=0.5)  #Add x-axis
     plt.grid(True)
+    plt.savefig('root_locus_plot.png')  #Save the plot as an image file
     plt.show()
 
 #Main code
